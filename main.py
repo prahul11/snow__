@@ -1,7 +1,7 @@
 # main.py
 
 import csv
-
+print("hello")
 # Data to write
 data = [
     ['Name', 'Age', 'City'],
