@@ -2,7 +2,8 @@ name: Daily Python Script at 21:10 IST
 
 on:
   schedule:
-    - cron: '40 15 * * *'  # Runs daily at 21:10 IST
+    - cron: '40 15 * * *'  # 21:10 IST daily
+  workflow_dispatch:       # Manual trigger
 
 jobs:
   run-daily-script:
